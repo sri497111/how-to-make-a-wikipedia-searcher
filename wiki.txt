@@ -1,0 +1,5 @@
+import wikipedia
+e = input('search wikipedia: ') 
+result = wikipedia.page(e) 
+print(f'''results for {e}:
+''',result.summary)
